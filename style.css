@@ -39,6 +39,12 @@ body {
     border: 3px solid #000000;
     border-radius: 9px;
 	text-align: center;
+	transition: all .07s ease;
+}
+
+.play {
+	transform: scale(1.1);
+	border-color: #ffc600;
 }
 
 h1 {

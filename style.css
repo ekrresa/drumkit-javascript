@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 99vh;
+    background-image: url('img/unsplash.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}

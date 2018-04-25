@@ -8,6 +8,7 @@ function playSound (e) {
 	const key = document.querySelector(`div[data-key="${e.keyCode}"]`)
 
 	if (!audio) return;
+	if (key.keyup) return;
 	key.classList.add('play');
     audio.currentTime = 0;
     audio.play();

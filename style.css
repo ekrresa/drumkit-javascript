@@ -7,4 +7,18 @@ body {
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.keyboard {
+	height: 140px;
+	width: 90%;
+	background-color: whitesmoke;
+	opacity: 0.6;
+	margin: 0 auto;
+	border-radius: 7px;
+	border: 2px solid;
 }
